@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="CENTER" prefHeight="247.0" prefWidth="443.0" spacing="20.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ba.sum.fpmoz.informatika.fpmozjavafx.controller.IntroController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+   <children>
+       <Button alignment="CENTER" mnemonicParsing="false" onAction="#userAdministration" prefHeight="80.0" prefWidth="140.0" text="Administracija korisnika" textAlignment="CENTER" textOverrun="WORD_ELLIPSIS" wrapText="true">
+         <styleClass>
+            <String fx:value="btn" />
+            <String fx:value="btn-primary" />
+         </styleClass></Button>
+   </children>
+</VBox>
